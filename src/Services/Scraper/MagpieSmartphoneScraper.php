@@ -32,7 +32,7 @@ class MagpieSmartphoneScraper
     {
         $pagedUrl = $this->urlBase.'?page=';
         $pageNo = 1;
-        $this->logger->info("Starting Scrape for $this->urlBase started!");
+        $this->logger->info("Starting ScrapeMagpieSmartphonesCommand for $this->urlBase started!");
         $productDocs = $this->fetcher->fetchDocument(
             $pagedUrl.$pageNo)->filterXPath($this->cssConverter->toXPath('div > div > div.product')
         );
@@ -52,7 +52,7 @@ class MagpieSmartphoneScraper
         }
 
         $this->logger->info(sprintf(
-                "Scrape Completed for %s, %d products retrieved in unique items.}",
+                "ScrapeMagpieSmartphonesCommand Completed for %s, %d products retrieved in unique items.}",
                 $this->urlBase,
                 count($this->products
                 )

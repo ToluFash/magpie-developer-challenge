@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Command\Command;
+namespace App\Command;
 
 interface CommandInterface
 {
 
     public static function execute();
     public function run(): void;
-
 }
