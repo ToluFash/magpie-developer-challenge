@@ -50,9 +50,24 @@ Please also send us your `output.json`.
 ### Setup
 
 ```
-git clone git@github.com:stickeeuk/magpie-scrape-challenge.git
+git clone https://github.com/ToluFash/magpie-developer-challenge.git
 cd magpie-scrape-challenge
 composer install
 ```
 
-To run the scrape you can use `php src/Scrape.php`
+### How To Use (Run the Scrape)
+
+```
+php src/Command/ScrapeMagpieSmartphonesCommand.php
+```
+
+### Run Tests
+
+```
+php vendor/bin/phpunit tests
+```
+### Logging
+
+```
+Logs are stored at var/log/dev.log
+```
