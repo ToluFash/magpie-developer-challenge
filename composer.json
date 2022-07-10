@@ -6,7 +6,8 @@
     "guzzlehttp/guzzle": "^7.2",
     "symfony/css-selector": "^5.2",
     "ext-json": "*",
-    "monolog/monolog": "^2.7"
+    "monolog/monolog": "^2.7",
+    "ext-intl": "*"
   },
   "autoload": {
     "psr-4": {
