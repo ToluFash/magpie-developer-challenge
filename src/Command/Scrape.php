@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Command;
 
 require 'vendor/autoload.php';
 
