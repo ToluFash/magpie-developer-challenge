@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command\Services\Writer;
+namespace App\Services\Writer;
 
 class JSONWriter implements WriterInterface
 {

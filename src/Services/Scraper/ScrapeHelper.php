@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command\Services\Scraper;
+namespace App\Services\Scraper;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

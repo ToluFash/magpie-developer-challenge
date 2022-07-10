@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command\Services\Utils;
+namespace App\Services\Utils;
 
 class DotEnvLoader
 {

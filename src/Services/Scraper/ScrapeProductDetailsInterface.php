@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command\Services\Scraper;
+namespace App\Services\Scraper;
 
 interface ScrapeProductDetailsInterface
 {
