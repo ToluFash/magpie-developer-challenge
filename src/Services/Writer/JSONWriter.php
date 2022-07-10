@@ -12,6 +12,6 @@ class JSONWriter implements WriterInterface
      */
     public function write(array $data, string $outputFile): int
     {
-        return file_put_contents($outputFile, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+        return file_put_contents($outputFile, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES), LOCK_EX);
     }
 }
